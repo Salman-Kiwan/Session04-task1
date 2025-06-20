@@ -1,0 +1,12 @@
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+body {
+  margin: 0px;
+}
