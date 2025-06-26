@@ -1,0 +1,100 @@
+.side-bar {
+  position: fixed;
+  align-items: center;
+  left: 0;
+  top: 58px;
+  bottom: 0;
+  width: 74px;
+  row-gap: 30px;
+  font-size: 10px;
+  background-color: white;
+  border-right-color: rgba(0, 0, 0, 0.05);
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.side-bar img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 7px;
+}
+
+.home-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.explore-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.subscription-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.original-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.youtube-music-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.library-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+}
+.side-bar p {
+  height: 12px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  body {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .side-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    top: auto;
+    justify-content: space-around;
+    align-items: baseline;
+    z-index: 1;
+  }
+}
