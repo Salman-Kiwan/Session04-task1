@@ -104,3 +104,19 @@
   height: 32px;
   border-radius: 16px;
 }
+.notificaton-container {
+  position: relative;
+}
+.notificaton-container div {
+  background-color: rgb(204, 0, 0);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  top: -2px;
+  right: -3px;
+  position: absolute;
+  font-size: 10px;
+  padding: 1.5px 5px;
+  justify-content: center;
+  align-items: center;
+}
